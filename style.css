@@ -1,0 +1,265 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(262886786_346766427256401_882564246081143022_n.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+p{
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size:large;
+  
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 100px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    font: bolder;
+    text-decoration: aliceblue;
+    font-size: medium;
+    font-style: oblique;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #c8f309;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    bottom: 40%; 
+    transform:translate(-50%,50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box{
+    margin: 20px 0 60px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(238, 245, 238);
+    border: 3px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #bcec0d;
+    background: rgb(160, 241, 9);
+    transition: 1s;
+}
+
+nav.fa{display: none;}
+@media(max-width: 700px) 
+{.text-box h1
+    {font-size: 20px;
+    }
+    
+
+.nav-links ul li{
+        display: block; 
+    }
+
+}
+
+nav.fa{display: block;
+    color:rgb(241, 235, 235);
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;}
+   
+.nav-links ul{
+        padding: 30px; } 
+   
+   
+/*-----green-----*/
+        .green{
+            width:80% ;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+            h1{
+                font-size:26px;
+                font-weight: 600;
+                color:black;
+
+            }
+            p{font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                padding: 10px;
+
+            }
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.agri-col:hover{
+    box-shadow: 0 0 20px 0px rgba (0,0,0,2);}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+ 
+/*-----agriculture---*/
+.agri-col{
+    width: 80%;
+    height:80%;
+    flex-basis: 32;
+    border-radius: 10px;
+    margin-bottom: 0.5%;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.agri-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position:relative; 
+    top:0%;
+    left:0%;
+    right:0%;
+      
+}
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0%;
+    left:0%;
+    transition:0.5s ;
+}
+
+.layer:hover{
+    background: rgba(183, 247, 5, 0.486);}
+
+.agri-col.h3{
+    width:100%;
+    font-weight: 500;
+    color:black;
+    bottom: 0;
+    left: 25%;
+    transform: translate(-50%);
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/*-----footer----*/
+
+.footer{
+    width: 100% ;
+    height: 70%;
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 25px;
+    background-color:rgba(243, 235, 235, 0.5);
+   
+}
+.footer h4{
+    margin-bottom: 5px;
+    margin-top:  5px;;
+    font-weight: 600;
+    font-size:x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Icons .fa{
+     color: black;
+     
+}
+.footerimg{
+     margin: 0.13px;
+     padding-left: 5px;
+}
+
+/*-----agripage-----*/
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(agri.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+/*---PLANTING---*/
+.header3{min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(smalltreehandenvironmentcreditShuterstockcom.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*---- SELLING PLANTS----*/
+.header4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("adobestock_162947010_with_sale_fmt.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
